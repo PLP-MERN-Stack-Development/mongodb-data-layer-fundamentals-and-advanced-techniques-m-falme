@@ -230,7 +230,7 @@ async function insertBooks() {
     process.exitCode = 1;
   } finally {
     await client.close();
-    console.log('🔒 MongoDB connection closed');
+    console.log(' MongoDB connection closed');
   }
 }
 
